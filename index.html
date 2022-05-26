@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-trans - Начни двигаться по новому</title>
     <link rel="stylesheet" href="style/index.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    
+    <script defer src="js/index.js"></script>
 </head>
 <body>
     <header class="header">
@@ -45,7 +50,7 @@
 
         <section class="product" id="gyroscooter">
             <div class="container product__container">
-                <img src="img/gyroscooter.png" alt="Гироскутер">
+                <img class="product__photo" src="img/gyroscooter.png" alt="Гироскутер">
 
                 <div class="product__content">
                     <h2 class="product__title">Гироскутер</h2>
@@ -59,7 +64,7 @@
 
         <section class="product" id="monowheels">
             <div class="container product__container">
-                <img src="img/monowheel.png" alt="Моноколесо">
+                <img class="product__photo" src="img/monowheel.png" alt="Моноколесо">
 
                 <div class="product__content">
                     <h2 class="product__title">Моноколесо</h2>
@@ -73,7 +78,7 @@
 
         <section class="product" id="electroschooter">
             <div class="container product__container">
-                <img src="img/electroschooter.png" alt="Электросамокат">
+                <img class="product__photo" src="img/electroschooter.png" alt="Электросамокат">
 
                 <div class="product__content">
                     <h2 class="product__title">Электросамокат</h2>
@@ -160,7 +165,7 @@
             <div class="footer__column contacts">
                 <h3 class="footer__title">Контакты:</h3>
 
-                <div class="contacts__list">
+                <div class="contacts__list contacts__list_footer">
                     <a class="contacts__link" href="tel:+73848833812">+7(384)883-38-12</a>
 
                     <a class="contacts__link" href="mailto:ETrans@gmail.com">ETrans@gmail.com</a>

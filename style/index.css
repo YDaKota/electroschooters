@@ -528,6 +528,7 @@ img, svg {
     .product__description {
         -webkit-line-clamp: 3;
     }
+    
     .product__btn {
         width: 100%;
     }
